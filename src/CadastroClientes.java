@@ -18,7 +18,7 @@ public class CadastroClientes {
 		if (!clientes.existe(c.getCpf())) {
 			clientes.inserir(c);
 		} else {
-			InterfaceTextual.mostra_mensagem("Cliente já cadastrado");
+			InterfaceTextual.mostra_mensagem("Cliente ja cadastrado");
 		}
 	}
 
