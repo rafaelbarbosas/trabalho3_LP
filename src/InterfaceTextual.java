@@ -190,12 +190,12 @@ public class InterfaceTextual {
                 case 2:
                     // crie abaixo uma Poupanca fornecendo "numero" e "cliente" 
                     // como argumentos para o construtor
-                    conta = new Poupanca(numero,0,cliente);
+                    conta = new Poupanca(numero,cliente);
                     break;
                 case 3:
                     // crie abaixo uma ContaBonificada fornecendo "numero" e "cliente" 
                     // como argumentos para o construtor
-                    conta = new ContaBonificada(numero,0,cliente);
+                    conta = new ContaBonificada(numero,cliente);
                     break;
                 default:
 
