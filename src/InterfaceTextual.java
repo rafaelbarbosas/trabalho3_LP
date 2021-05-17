@@ -1,3 +1,8 @@
+// Indentificacao dos membros do grupo:
+// Henrique de Miranda Carrer - 180101951
+// Rafael Barbosa de Sousa - 170043827
+// Rafael Silva de Alencar - 130130834
+
 
 import java.util.Scanner;
 import java.util.Locale;
