@@ -1,5 +1,5 @@
 class ContaBonificada extends Conta {
-    ContaBonificada(String numero, Cliente cliente){
-        super(numero, cliente)
+    public ContaBonificada(String numero, Cliente cliente){
+        super(numero, cliente);
     }
 }
