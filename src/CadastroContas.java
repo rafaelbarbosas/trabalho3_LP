@@ -59,6 +59,26 @@ public class CadastroContas {
 		return r;
 	}
 
+	public int renderJuros(String n, double v) {
+		int r = -1;
+		Poupanca c = contas.procurar(n);
+		if (c != null) {
+			r = c.renderJuros(v);
+			r = 1;
+		}
+		return r;
+	}
+
+	public int renderBonus(String n) {
+		int r = -1;
+		ContaBonificada c = contas.procurar(n);
+		if (c != null) {
+			r = c.renderBonus();
+			r = 1;
+		}
+		return r;
+	}
+
 	public ListaContas listaContasCliente(String cpf) {
 		Conta[]  contas = null;
 		Conta conta = null;

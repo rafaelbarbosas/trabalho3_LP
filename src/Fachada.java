@@ -105,6 +105,14 @@ public class Fachada {
 		return contas.transferir(origem, destino, val);
 	}
 
+	public int renderJuros(String n, double v) {
+		return contas.renderJuros(n, v);
+	}
+
+	public int renderBonus(String n) {
+		return contas.renderBonus(n);
+	}
+
 	public ListaContas listaContasCliente(String cpf) {
 		ListaContas lc = null;
 		Cliente cliente = clientes.procurar(cpf);

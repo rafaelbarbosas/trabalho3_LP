@@ -308,7 +308,6 @@ public class InterfaceTextual {
 
             break;
             
-        /*    
         case OP_RENDER_JUROS_CONTAS:
             System.out.println("Favor entre numero da conta e  tecle Enter:");
             numero = sc.nextLine();
@@ -335,7 +334,6 @@ public class InterfaceTextual {
             }
 
             break;
-        */
 
         
         case OP_EXIBIR_CONTAS_CLIENTE:
