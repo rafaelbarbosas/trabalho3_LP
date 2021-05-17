@@ -1,0 +1,3 @@
+class ContaBonificada extends Conta {
+  
+}
