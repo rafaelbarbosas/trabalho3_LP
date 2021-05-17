@@ -185,17 +185,17 @@ public class InterfaceTextual {
                 switch (tipo) {
                 case 1: // crie abaixo uma Conta fornecendo "numero" e "cliente" 
                         // como argumentos para o construtor
-                    conta = ...
+                    conta = new Conta(numero,cliente);
                     break;
                 case 2:
                     // crie abaixo uma Poupanca fornecendo "numero" e "cliente" 
                     // como argumentos para o construtor
-                    conta = ...
+                    //conta = new Poupanca(numero,0,cliente);
                     break;
                 case 3:
                     // crie abaixo uma ContaBonificada fornecendo "numero" e "cliente" 
                     // como argumentos para o construtor
-                    conta = ...
+                    //conta = new ContaBonificada(numero,0,cliente);
                     break;
                 default:
 
